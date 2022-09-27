@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+header {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    /* height: 70px; */
+}   
+
+.link{
+  margin: 0 8em;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.first-section {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(85,0,84,1) 53%, rgba(41,10,88,1) 100%);
+    color: white;
+    height: calc(100vh - 70px );
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%
+}
+.about-me{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 30%;
+    top: 150px;
+    
+}
+.who-iam{
+    width: 800px;
+    font-size: 100px;
+}
+
+.description{
+    margin-top: 3em;
+    width: 750px;
+    font-size: 40px;
+
+}
+
+.image{
+    margin-top:  100px;
+    margin-left: 300px; 
+    width: 30em;
+    border-radius: 34% 66% 70% 30% / 34% 50% 50% 66%  ;
+    box-shadow: 4px 2px 0px rgb(0, 0, 0);;
+}
+
+.second-section{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(8,14,50,1) 53%, rgba(0,0,0,1) 100%);
+    color: white;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+.ufc-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ufc-img{
+    width: 50em;
+    margin-left: 20px;
+    margin-bottom: 2em;
+}
+
+.ifpi-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ifpi-img{
+    width: 50em;
+    margin-bottom: 2em;
+    
+}
+
+.third-section{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(85,0,84,1) 53%, rgba(41,10,88,1) 100%);
+   
+    height: 100vh;
+    
+}
